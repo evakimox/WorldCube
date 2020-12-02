@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="Toolbar" src="Toolbar.uxml" />
+    <ui:Instance template="Toolbar" name="Toolbar" />
+    <ui:VisualElement style="padding-left: 60px; padding-right: 0; justify-content: space-between; flex-direction: row;">
+        <Style src="Find Errors.uss" />
+        <ui:VisualElement name="Check Content" style="padding-left: 0; padding-right: 0; flex-direction: row; justify-content: flex-start; flex-grow: 1;">
+            <ui:VisualElement class="check-column" style="align-items: flex-start;">
+                <ui:Label text="Unity Version" class="check-title" />
+                <ui:Label text="URP Version" class="check-title" />
+                <ui:Label text="Active Renderer" class="check-title" />
+                <ui:Label text="Depth Texture" class="check-title" />
+                <ui:Label text="Opaque Texture" class="check-title" />
+            </ui:VisualElement>
+            <ui:VisualElement class="check-column" style="align-items: flex-end; flex-grow: 1;">
+                <ui:Label text="Not Tested" name="Unity Version" class="check-status" style="justify-content: flex-start;" />
+                <ui:Label text="Package not found" name="URP Version" class="check-status" />
+                <ui:Label text="Supported" name="Active Renderer" class="check-status" />
+                <ui:Label text="Generated" name="Depth Texture" class="check-status" />
+                <ui:Label text="Not Generated" name="Opaque Texture" class="check-status" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Check Content" style="padding-left: 0; padding-right: 0; flex-direction: row; margin-left: 0; justify-content: flex-end;">
+            <ui:VisualElement class="check-column" style="padding-right: 0; align-items: flex-start;">
+                <ui:VisualElement name="Unity Version Icon" class="check-icon" style="background-image: resource('Icons/Neutral');" />
+                <ui:VisualElement name="URP Version Icon" class="check-icon" style="background-image: resource('Icons/Neutral');" />
+                <ui:VisualElement name="Active Renderer Icon" class="check-icon" style="background-image: resource('Icons/Neutral');" />
+                <ui:VisualElement name="Depth Texture Icon" class="check-icon" style="background-image: resource('Icons/Neutral');" />
+                <ui:VisualElement name="Opaque Texture Icon" class="check-icon" style="background-image: resource('Icons/Neutral');" />
+            </ui:VisualElement>
+            <ui:VisualElement class="check-column" style="align-items: flex-start; padding-right: 0; justify-content: flex-start;">
+                <ui:Button text="Fix" name="Unity Version Fix" class="fix-button" style="flex-shrink: 1; align-items: flex-start; border-left-width: 0; border-right-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-top-right-radius: 3px;" />
+                <ui:Button text="Install" name="URP Version Fix" class="fix-button" style="border-left-width: 0; border-right-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-top-right-radius: 3px;" />
+                <ui:Button text="Fix" name="Active Renderer Fix" class="fix-button" style="border-left-width: 0; border-right-width: 0; border-bottom-width: 0; border-bottom-right-radius: 3px; border-top-left-radius: 3px; border-top-right-radius: 3px;" />
+                <ui:Button text="Fix" name="Depth Texture Fix" class="fix-button" style="border-left-width: 0; border-right-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-top-right-radius: 3px;" />
+                <ui:Button text="Fix" name="Opaque Texture Fix" class="fix-button" style="border-left-width: 0; border-right-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-top-right-radius: 3px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Detect" name="Check" style="margin-left: 120px; margin-right: 120px; margin-top: 25px;">
+        <Style src="Find Errors.uss" />
+    </ui:Button>
+</ui:UXML>

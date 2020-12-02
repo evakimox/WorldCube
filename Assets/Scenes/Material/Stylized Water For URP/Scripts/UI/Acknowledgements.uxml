@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="Toolbar" src="Toolbar.uxml" />
+    <ui:Instance template="Toolbar" />
+    <ui:Label text="Icons made by Pixel perfect from www.flaticon.com" class="acknowledgement" style="margin-top: 10px;&#10;margin-bottom: 10px;&#10;-unity-text-align: upper-center;&#10;">
+        <Style src="Acknowledgements.uss" />
+    </ui:Label>
+    <ui:Label text="Icons made by Smashicons from www.flaticon.com" class="acknowledgement" style="margin-top: 10px;&#10;margin-bottom: 10px;&#10;-unity-text-align: upper-center;&#10;">
+        <Style src="Acknowledgements.uss" />
+    </ui:Label>
+    <ui:Label text="Icons made by Freepik from www.flaticon.com" class="acknowledgement" style="margin-top: 10px;&#10;margin-bottom: 10px;&#10;-unity-text-align: upper-center;&#10;">
+        <Style src="Acknowledgements.uss" />
+    </ui:Label>
+    <ui:VisualElement style="flex-direction: row;&#10;justify-content: center;&#10;">
+        <Style src="Acknowledgements.uss" />
+        <ui:Label text="Thank you" class="acknowledgement" />
+        <ui:Button text="Keenan Woodall" name="KeenanWoodall" style="margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 10px;&#10;margin-bottom: 10px;&#10;padding-left: 1px;&#10;padding-right: 2px;&#10;padding-top: 0;&#10;padding-bottom: 0;&#10;color: rgb(0, 133, 255);&#10;background-color: rgba(0, 0, 0, 0);&#10;border-left-width: 0;&#10;border-right-width: 0;&#10;border-top-width: 0;&#10;border-bottom-width: 0;&#10;border-top-left-radius: 0;&#10;border-bottom-left-radius: 0;&#10;border-top-right-radius: 0;&#10;border-bottom-right-radius: 0;&#10;-unity-font-style: normal;&#10;" />
+        <ui:Label text=" and" class="acknowledgement" />
+        <ui:Button text="Josh Sauter" name="JoshSauter" style="margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 10px;&#10;margin-bottom: 10px;&#10;padding-left: 1px;&#10;padding-right: 2px;&#10;padding-top: 0;&#10;padding-bottom: 0;&#10;color: rgb(0, 133, 255);&#10;background-color: rgba(0, 0, 0, 0);&#10;border-left-width: 0;&#10;border-right-width: 0;&#10;border-top-width: 0;&#10;border-bottom-width: 0;&#10;border-top-left-radius: 0;&#10;border-bottom-left-radius: 0;&#10;border-top-right-radius: 0;&#10;border-bottom-right-radius: 0;&#10;-unity-font-style: normal;&#10;" />
+        <ui:Label text="for beta testing" class="acknowledgement" />
+    </ui:VisualElement>
+</ui:UXML>

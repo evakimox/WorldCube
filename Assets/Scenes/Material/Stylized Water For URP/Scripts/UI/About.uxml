@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="Toolbar" src="Toolbar.uxml" />
+    <ui:Instance template="Toolbar" />
+    <ui:Label text="Stylized Water For URP" style="-unity-text-align: upper-center;&#10;margin-bottom: 10px;&#10;margin-top: 10px;&#10;">
+        <Style src="About.uss" />
+    </ui:Label>
+    <ui:Label text="Version 1.0.3" style="margin-bottom: 10px;&#10;margin-top: 10px;&#10;-unity-text-align: upper-center;&#10;">
+        <Style src="About.uss" />
+    </ui:Label>
+    <ui:Label text="Designed &amp; Developed by Alexander Ameye" style="-unity-text-align: upper-center;&#10;margin-bottom: 10px;&#10;margin-top: 10px;&#10;">
+        <Style src="About.uss" />
+    </ui:Label>
+</ui:UXML>
